@@ -1,20 +1,60 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Login page </title>>
+    
+<title>Login Page</title>
+<style>
+    body {
+        font-family: Arial;
+        background-color: #f2f2f2;
+            }
+         .login-box {
+            width: 300px;
+            padding: 20px;
+            background: white;
+            margin: 100px auto;
+            border-radius: 10px;
+            box-shadow: 0 0 10px gray;
+           
+         }
+         input[type="text"],
+         input[type="password"]{
+             width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+
+         }
+         button {
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+         }
+         button:hover {
+            background-color: #45a049;
+         }
+
+    
+</style>
 </head>
 <body>
-    <h1>Authenticate</h1>
-    <p>I am learnig web development</p>
-    <button onclick="showmessage()">click me</button>
-    <script>
-        function showmessage()
-         {
-            alert 
-            ("Hello you are clicked the button.")
-        }
+    <div class = "login-box">
+        <h2>Login</h2>
+        <form>
+            <label>User name</label>
+            <input tyoe=""text"
+            placeholder=""Enter username" required>
 
-    </script>
-    
+            <label>Password</label>
+            <input type=""password"
+            placeholder="Enter password" required>
+
+            <button type="submit">Login</button>
+        </form>
+    </div>
 </body>
 </html>
